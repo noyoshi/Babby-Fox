@@ -10,9 +10,11 @@
 		322DB4B5210BA5830035BCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4B4210BA5830035BCBE /* AppDelegate.swift */; };
 		322DB4B7210BA5830035BCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4B6210BA5830035BCBE /* ViewController.swift */; };
 		322DB4B9210BA5840035BCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322DB4B8210BA5840035BCBE /* Assets.xcassets */; };
-		322DB4BC210BA5840035BCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DB4BA210BA5840035BCBE /* Main.storyboard */; };
 		322DB4C8210BA5850035BCBE /* Babby_FoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4C7210BA5850035BCBE /* Babby_FoxTests.swift */; };
 		322DB4D3210BA5850035BCBE /* Babby_FoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4D2210BA5850035BCBE /* Babby_FoxUITests.swift */; };
+		322DB4E0210BC6000035BCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DB4BA210BA5840035BCBE /* Main.storyboard */; };
+		322DB4E2210BE43D0035BCBE /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4E1210BE43D0035BCBE /* PreferencesView.swift */; };
+		322DB4E4210BE58C0035BCBE /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4E3210BE58C0035BCBE /* PreferencesWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		322DB4CE210BA5850035BCBE /* Babby FoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babby FoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		322DB4D2210BA5850035BCBE /* Babby_FoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babby_FoxUITests.swift; sourceTree = "<group>"; };
 		322DB4D4210BA5850035BCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DB4E1210BE43D0035BCBE /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		322DB4E3210BE58C0035BCBE /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				322DB4BA210BA5840035BCBE /* Main.storyboard */,
 				322DB4BD210BA5840035BCBE /* Info.plist */,
 				322DB4BE210BA5840035BCBE /* Babby_Fox.entitlements */,
+				322DB4E1210BE43D0035BCBE /* PreferencesView.swift */,
+				322DB4E3210BE58C0035BCBE /* PreferencesWindowController.swift */,
 			);
 			path = "Babby Fox";
 			sourceTree = "<group>";
@@ -229,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322DB4B9210BA5840035BCBE /* Assets.xcassets in Resources */,
-				322DB4BC210BA5840035BCBE /* Main.storyboard in Resources */,
+				322DB4E0210BC6000035BCBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				322DB4B7210BA5830035BCBE /* ViewController.swift in Sources */,
+				322DB4E2210BE43D0035BCBE /* PreferencesView.swift in Sources */,
+				322DB4E4210BE58C0035BCBE /* PreferencesWindowController.swift in Sources */,
 				322DB4B5210BA5830035BCBE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,13 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.preferredContentSize = NSMakeSize(self.view.frame.size.width, self.view.frame.size.height)
+    }
+    override func viewDidAppear() {
+        super.viewDidAppear()
+        
+        //set title for window
+        self.parent?.view.window?.title = self.title!
     }
 
     override var representedObject: Any? {
