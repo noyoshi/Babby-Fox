@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322DB4B5210BA5830035BCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4B4210BA5830035BCBE /* AppDelegate.swift */; };
+		322DB4B7210BA5830035BCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4B6210BA5830035BCBE /* ViewController.swift */; };
+		322DB4B9210BA5840035BCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322DB4B8210BA5840035BCBE /* Assets.xcassets */; };
+		322DB4BC210BA5840035BCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DB4BA210BA5840035BCBE /* Main.storyboard */; };
+		322DB4C8210BA5850035BCBE /* Babby_FoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4C7210BA5850035BCBE /* Babby_FoxTests.swift */; };
+		322DB4D3210BA5850035BCBE /* Babby_FoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DB4D2210BA5850035BCBE /* Babby_FoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322DB4C4210BA5850035BCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322DB4A9210BA5830035BCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DB4B0210BA5830035BCBE;
+			remoteInfo = "Babby Fox";
+		};
+		322DB4CF210BA5850035BCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322DB4A9210BA5830035BCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DB4B0210BA5830035BCBE;
+			remoteInfo = "Babby Fox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322DB4B1210BA5830035BCBE /* Babby Fox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Babby Fox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DB4B4210BA5830035BCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322DB4B6210BA5830035BCBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		322DB4B8210BA5840035BCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322DB4BB210BA5840035BCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322DB4BD210BA5840035BCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DB4BE210BA5840035BCBE /* Babby_Fox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Babby_Fox.entitlements; sourceTree = "<group>"; };
+		322DB4C3210BA5850035BCBE /* Babby FoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babby FoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DB4C7210BA5850035BCBE /* Babby_FoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babby_FoxTests.swift; sourceTree = "<group>"; };
+		322DB4C9210BA5850035BCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DB4CE210BA5850035BCBE /* Babby FoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Babby FoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DB4D2210BA5850035BCBE /* Babby_FoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babby_FoxUITests.swift; sourceTree = "<group>"; };
+		322DB4D4210BA5850035BCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322DB4AE210BA5830035BCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4C0210BA5850035BCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4CB210BA5850035BCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322DB4A8210BA5830035BCBE = {
+			isa = PBXGroup;
+			children = (
+				322DB4B3210BA5830035BCBE /* Babby Fox */,
+				322DB4C6210BA5850035BCBE /* Babby FoxTests */,
+				322DB4D1210BA5850035BCBE /* Babby FoxUITests */,
+				322DB4B2210BA5830035BCBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322DB4B2210BA5830035BCBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322DB4B1210BA5830035BCBE /* Babby Fox.app */,
+				322DB4C3210BA5850035BCBE /* Babby FoxTests.xctest */,
+				322DB4CE210BA5850035BCBE /* Babby FoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322DB4B3210BA5830035BCBE /* Babby Fox */ = {
+			isa = PBXGroup;
+			children = (
+				322DB4B4210BA5830035BCBE /* AppDelegate.swift */,
+				322DB4B6210BA5830035BCBE /* ViewController.swift */,
+				322DB4B8210BA5840035BCBE /* Assets.xcassets */,
+				322DB4BA210BA5840035BCBE /* Main.storyboard */,
+				322DB4BD210BA5840035BCBE /* Info.plist */,
+				322DB4BE210BA5840035BCBE /* Babby_Fox.entitlements */,
+			);
+			path = "Babby Fox";
+			sourceTree = "<group>";
+		};
+		322DB4C6210BA5850035BCBE /* Babby FoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				322DB4C7210BA5850035BCBE /* Babby_FoxTests.swift */,
+				322DB4C9210BA5850035BCBE /* Info.plist */,
+			);
+			path = "Babby FoxTests";
+			sourceTree = "<group>";
+		};
+		322DB4D1210BA5850035BCBE /* Babby FoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				322DB4D2210BA5850035BCBE /* Babby_FoxUITests.swift */,
+				322DB4D4210BA5850035BCBE /* Info.plist */,
+			);
+			path = "Babby FoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322DB4B0210BA5830035BCBE /* Babby Fox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DB4D7210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby Fox" */;
+			buildPhases = (
+				322DB4AD210BA5830035BCBE /* Sources */,
+				322DB4AE210BA5830035BCBE /* Frameworks */,
+				322DB4AF210BA5830035BCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Babby Fox";
+			productName = "Babby Fox";
+			productReference = 322DB4B1210BA5830035BCBE /* Babby Fox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322DB4C2210BA5850035BCBE /* Babby FoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DB4DA210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby FoxTests" */;
+			buildPhases = (
+				322DB4BF210BA5850035BCBE /* Sources */,
+				322DB4C0210BA5850035BCBE /* Frameworks */,
+				322DB4C1210BA5850035BCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322DB4C5210BA5850035BCBE /* PBXTargetDependency */,
+			);
+			name = "Babby FoxTests";
+			productName = "Babby FoxTests";
+			productReference = 322DB4C3210BA5850035BCBE /* Babby FoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322DB4CD210BA5850035BCBE /* Babby FoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DB4DD210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby FoxUITests" */;
+			buildPhases = (
+				322DB4CA210BA5850035BCBE /* Sources */,
+				322DB4CB210BA5850035BCBE /* Frameworks */,
+				322DB4CC210BA5850035BCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322DB4D0210BA5850035BCBE /* PBXTargetDependency */,
+			);
+			name = "Babby FoxUITests";
+			productName = "Babby FoxUITests";
+			productReference = 322DB4CE210BA5850035BCBE /* Babby FoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322DB4A9210BA5830035BCBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mike Eisemann";
+				TargetAttributes = {
+					322DB4B0210BA5830035BCBE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					322DB4C2210BA5850035BCBE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 322DB4B0210BA5830035BCBE;
+					};
+					322DB4CD210BA5850035BCBE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 322DB4B0210BA5830035BCBE;
+					};
+				};
+			};
+			buildConfigurationList = 322DB4AC210BA5830035BCBE /* Build configuration list for PBXProject "Babby Fox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322DB4A8210BA5830035BCBE;
+			productRefGroup = 322DB4B2210BA5830035BCBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322DB4B0210BA5830035BCBE /* Babby Fox */,
+				322DB4C2210BA5850035BCBE /* Babby FoxTests */,
+				322DB4CD210BA5850035BCBE /* Babby FoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322DB4AF210BA5830035BCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB4B9210BA5840035BCBE /* Assets.xcassets in Resources */,
+				322DB4BC210BA5840035BCBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4C1210BA5850035BCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4CC210BA5850035BCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322DB4AD210BA5830035BCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB4B7210BA5830035BCBE /* ViewController.swift in Sources */,
+				322DB4B5210BA5830035BCBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4BF210BA5850035BCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB4C8210BA5850035BCBE /* Babby_FoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DB4CA210BA5850035BCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DB4D3210BA5850035BCBE /* Babby_FoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322DB4C5210BA5850035BCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322DB4B0210BA5830035BCBE /* Babby Fox */;
+			targetProxy = 322DB4C4210BA5850035BCBE /* PBXContainerItemProxy */;
+		};
+		322DB4D0210BA5850035BCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322DB4B0210BA5830035BCBE /* Babby Fox */;
+			targetProxy = 322DB4CF210BA5850035BCBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322DB4BA210BA5840035BCBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322DB4BB210BA5840035BCBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322DB4D5210BA5850035BCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		322DB4D6210BA5850035BCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		322DB4D8210BA5850035BCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Babby Fox/Babby_Fox.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby Fox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-Fox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		322DB4D9210BA5850035BCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Babby Fox/Babby_Fox.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby Fox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-Fox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		322DB4DB210BA5850035BCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby FoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-FoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babby Fox.app/Contents/MacOS/Babby Fox";
+			};
+			name = Debug;
+		};
+		322DB4DC210BA5850035BCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby FoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-FoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babby Fox.app/Contents/MacOS/Babby Fox";
+			};
+			name = Release;
+		};
+		322DB4DE210BA5850035BCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby FoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-FoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Babby Fox";
+			};
+			name = Debug;
+		};
+		322DB4DF210BA5850035BCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Babby FoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "kittokatto.Babby-FoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Babby Fox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322DB4AC210BA5830035BCBE /* Build configuration list for PBXProject "Babby Fox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB4D5210BA5850035BCBE /* Debug */,
+				322DB4D6210BA5850035BCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DB4D7210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby Fox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB4D8210BA5850035BCBE /* Debug */,
+				322DB4D9210BA5850035BCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DB4DA210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby FoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB4DB210BA5850035BCBE /* Debug */,
+				322DB4DC210BA5850035BCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DB4DD210BA5850035BCBE /* Build configuration list for PBXNativeTarget "Babby FoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DB4DE210BA5850035BCBE /* Debug */,
+				322DB4DF210BA5850035BCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322DB4A9210BA5830035BCBE /* Project object */;
+}
